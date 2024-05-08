@@ -1,0 +1,28 @@
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 16px;
+    width: 100%;
+    background: $--dark;
+    .boxFooter {
+        display: flex;
+        text-align: center;
+        margin: 6px;
+        width: 300px;
+        height: 60px;
+        .logoFooter {
+            width: 68px;
+            height: 100%;
+            border-radius: 50%;
+        }
+        .linkFooter {
+            margin-left: 8px;
+            padding-top: 10px;
+            font-size: 2.0rem;
+            color: $--gold;
+            text-decoration: none;
+        }
+    }
+}

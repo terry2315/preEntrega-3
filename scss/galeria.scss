@@ -1,0 +1,34 @@
+
+
+
+
+    //Galeria
+
+    .contentItemsGallery {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        border-radius: 10px;
+        
+        .itemsImg {
+            margin: 20px auto;
+            width: 350px;
+            height: 300px;
+            border: 2px solid $--gold;
+            background: $--dark;
+            box-shadow: -10px 10px 10px;
+            .boxImgGallery {
+                height: 86%;
+                border-bottom: 2px solid $--gold;
+                .imgGallery {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .nameGallery {
+                text-align: center;
+                font-size: 1.5rem;
+                color: $--gold;
+            }
+        }
+    }

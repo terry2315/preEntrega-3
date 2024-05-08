@@ -1,0 +1,38 @@
+    
+    header {
+        grid-area: header;
+        .boxTitle {
+            width: 100vw;
+            height: 100px;
+            background: $--dark;
+            h1 {
+                padding-top: 16px;
+                text-align: center;
+                font-size: 3.2rem;
+                color: $--gold;
+            }
+        }
+        nav {
+            width: 100vw;
+            height: 80px;
+            background: $--darklight;
+            ul {
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 20px;
+                list-style-type: none;
+                .linkNav {
+                    padding: 6px;
+                    font-size: 1.4rem;
+                    color: $--gold;
+                    text-decoration: none;
+                    background: $--dark;
+                    border-radius: 10px;
+                    &:hover {
+                        padding: 6px;
+                        @include styleBorder;
+                    }
+                }
+            }
+        }
+    }

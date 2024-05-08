@@ -1,0 +1,31 @@
+$--dark:#000;
+$--darklight:#000000e4;
+$--white:#d1d1d1c7;
+$--gold:#ff63b6c7;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Rancho";
+}
+
+@mixin styleBorder {
+    border: 2px solid $--gold;
+    border-radius: 10px;
+  }
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "aside section section"
+    "footer footer footer";
+}

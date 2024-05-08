@@ -1,0 +1,11 @@
+.contentVideo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.contentVideo iframe {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=videos.css.map */

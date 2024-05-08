@@ -1,0 +1,12 @@
+
+    //Videos
+
+    .contentVideo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        iframe  {
+          margin: 20px;
+        }
+      }

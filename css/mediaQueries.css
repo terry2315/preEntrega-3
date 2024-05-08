@@ -1,0 +1,47 @@
+@media screen and (min-width: 490px) {
+  .boxLogo {
+    padding-top: 10px;
+    height: 140px;
+  }
+}
+@media screen and (min-width: 650px) {
+  aside {
+    display: block;
+  }
+  section {
+    width: 100%;
+  }
+  .contentItems {
+    flex-wrap: nowrap;
+  }
+  .boxLogo {
+    height: 200px;
+  }
+  .footer {
+    display: inherit;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 820px) {
+  .boxLogo {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .boxlogo {
+    max-height: 100px;
+  }
+  .cardLogo {
+    text-align: center;
+  }
+  .contentItemHistory {
+    flex-direction: column;
+    height: 800px;
+  }
+  .itemTextHistory {
+    height: 800px;
+  }
+}
+
+/*# sourceMappingURL=mediaQueries.css.map */
